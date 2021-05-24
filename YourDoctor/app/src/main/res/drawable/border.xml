@@ -8,6 +8,6 @@
     <corners android:radius="20dp" />
 <size
     android:width="400dp"
-    android:height="200dp">
+    android:height="180dp">
 </size>
 </shape>
