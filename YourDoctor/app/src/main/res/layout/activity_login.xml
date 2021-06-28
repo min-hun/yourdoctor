@@ -24,20 +24,22 @@
     <EditText
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="350dp"
-        android:inputType="phone"
-        android:hint="Phone number"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:hint="Nhập tài khoản"
         android:background="@drawable/border_image"
         >
     </EditText>
-    <ImageView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_baseline_search_24"
-        android:layout_marginTop="355dp"
-        android:layout_marginLeft="300dp">
-    </ImageView>
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="370dp"
+        android:inputType="textPassword"
+        android:hint="Nhập mật khẩu"
+        android:background="@drawable/border_image"
+        >
+    </EditText>
     <ImageView
         android:layout_width="350dp"
         android:layout_height="200dp"
@@ -47,12 +49,12 @@
         android:background="@drawable/border_image">
     </ImageView>
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
         android:text="Sign in"
         android:background="@drawable/login_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="320dp"
         />
     <TextView
         android:layout_width="wrap_content"

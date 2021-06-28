@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="381dp"
         android:layout_marginTop="350dp"
-        android:background="@drawable/background_blue">
+        android:background="@drawable/blue_button">
 
         <TextView
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:text="Sign up"
             android:textColor="@color/white"
             android:textSize="30dp"
-            android:textStyle="bold"></TextView>
+            android:textStyle="bold" />
 
         <EditText
             android:layout_width="271dp"
@@ -37,7 +37,7 @@
             android:layout_marginLeft="80dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/border_image"
-            android:hint="       Họ tên:"></EditText>
+            android:hint="       Họ tên:" />
 
         <ImageView
             android:layout_width="wrap_content"
