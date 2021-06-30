@@ -33,7 +33,7 @@
             android:layout_height="50dp"
             android:layout_below="@+id/tv_name"
             android:text="Gói khám sức khỏe cơ bản : cung cấp những hạng mục khám và Xét Nghiệm Cơ Bản ..."
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="13dp"/>
         <ImageView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="58dp"
             android:layout_marginTop="90dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="15dp"
             android:text="Nam &amp; Nữ">
         </TextView>
@@ -64,7 +64,7 @@
             android:layout_marginLeft="58dp"
             android:layout_marginTop="130dp"
             android:textSize="15dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:text="Mọi lứa tuổi">
         </TextView>
 
