@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ketqua"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:background="#BFBDBD"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_maPhieu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mã phiếu kết quả: "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/tv_maPhieu"
+                        android:text="20"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Họ tên: "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Test bệnh nhân "
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:text="Ngày tạo:  "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginTop="40dp"
+                        android:text="21/1/2021"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="40dp"
+                        android:text="11:58:22"
+                         />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Danh sách chuẩn đoán"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+                <TableRow
+                    android:background="#939393">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="#"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Chuẩn đoán"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Điều trị"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text=""/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Nhức đầu"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Uống thuốc"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Toa đơn thuốc"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+                <TableRow
+                    android:background="#939393">
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="#"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Tên thuốc"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Số lượng"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Cách dùng"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text=""/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Panadol"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="4 vỉ"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:text="Uống sáng, tối \nMỗi lần 2 viên"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
